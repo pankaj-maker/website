@@ -1,54 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="index.html">Home</a>
-    </header>
-    <main>
-      <form action="action_page.php" method="post">
-        <div class="imgcontainer">
-          <img src="img_avatar2.png" alt="Avatar" class="avatar" />
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header><a href="index.html">Home</a></header>
+  <br/>
+  <main>
+    <form name="Contact" method="POST" data-netlify="true"
+    <label for="name">First Name</label>
+    <input type="text" name="user name" placeholder="user first name" />
+    <br/>
+    <br/>
+    <label for="name">Last Name</label>
+    <input type="text" name="user last name" placeholder="user last name"/>
+    <br/>
+    <br/>
+    <label for="Phone number">Phone number</label>
+    <input type="number" type="text" name="user phone no" placeholder="user mobile no"/>
+    <br/>
+    <br/>
+    <label for="Email id">Email id</label>
+    <input type="email" name="user email" placeholder="user email"/>
+    <br/>
+    <br/>
+    <label for="password">User password</label>
+    <input type="password" type="number" name="user password" placeholder="password"/>
+    <br/>
+    <br/>
+    <label for="button"></label>
+    &nbsp; &nbsp; <button class="button button1">Submit</button>&nbsp; &nbsp; &nbsp; 
+    <button class="button button2">Cancel</button>
 
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input
-            type="text"
-            placeholder="Enter Username"
-            name="uname"
-            required
-          />
-
-          <label for="psw"><b>Password</b></label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            name="psw"
-            required
-          />
-
-          <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember" /> Remember
-            me
-          </label>
-        </div>
-
-        <div class="container" style="background-color: #f1f1f1">
-          <button type="button" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
-    </main>
-  </body>
+ </form>
+  </main>
+  <br/>
+  <footer>copyright &copy; (2024-2025)</footer>
+</body>
 </html>
